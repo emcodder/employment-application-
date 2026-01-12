@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sketure&Co — Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero small">
+      <h1 class="brand">Sketure<span>&Co</span></h1>
+      <p class="lead">Applications dashboard — live view (local browser storage)</p>
+    </header>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search by name, role or email" />
+      <div class="control-right">
+        <button id="clearAll" class="btn danger">Clear all</button>
+        <button id="printBtn" class="btn">Print</button>
+      </div>
+    </section>
+
+    <section id="list" class="list">
+      <!-- Dynamic applicant cards injected here -->
+    </section>
+
+    <footer class="foot">
+      <small>Local data only • Sketure&Co</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
